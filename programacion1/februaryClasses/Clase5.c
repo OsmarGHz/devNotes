@@ -46,12 +46,10 @@ int cambia(char cad[],int c){
 	cad[i]=cad[0]+3;
 	return i;
 }
+
 i=2;
 strcpy/cadena,"abcdef");
 z=cambia(cadena,i);
 printf("%d,%s",z,cadena);
-
-
-
 
 */
