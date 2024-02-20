@@ -1,0 +1,16 @@
+d -> directorio
+r -> read
+w -> write
+r-x -> read and execute
+
+-> El 1er guion en la lista de permisos de archivo 
+
+3 descriptores en C
+stdin -> Teclado
+stdout -> Pantalla
+stdeir -> Pantalla
+
+Antes de leer algo en c:
+fflush(stdin);
+
+Tipo de archivo, Permisos(propietario, grupo, resto de gente), identificadorDeGrupo, propietario propietariox2 tamaño NombredeMes,dia,Hora,minutos, nombreArchivo
