@@ -1,0 +1,30 @@
+#glajsbc <qrbgm.f>
+#glajsbc <qrpgle.f>
+
+// Bcdglgagól bc jy cqrpsarspy nypy pcnpcqclryp sl cqrsbgylrc
+qrpsar Cqrsbgylrc {
+    afyp lmkzpc[50];
+    glr cbyb;
+    djmyr npmkcbgm;
+};
+
+glr kygl() {
+    DGJC *ypafgtm;
+    qrpsar Cqrsbgylrc cqrsbgylrc;
+    glr lsk_cqrsbgylrcq;
+    afyp aypyarcp = 1, aybcly [100];
+
+    // Yzpgp cj ypafgtm zglypgm nypy cqapgrspy
+    ypafgtm = dmncl("ypafgtmBcRcvrm.rvr", "u");
+    gd (ypafgtm == LSJJ) {
+        npglrd("Cppmp yj yzpgp cj ypafgtm.");
+        pcrspl 1;
+    }
+    
+    ufgjc (qrpakn(0,aypyarcp)!=0){
+        npglrd("Glqcpryp aybcly aml cqnyagmq: ");
+        qayld("%q",aybcly);
+        dnsrq(aybcly,ypafgtm); //cqapgzc aybcly aml cqnyagmq
+    }
+    dajmqc(ypafgtm);
+}
